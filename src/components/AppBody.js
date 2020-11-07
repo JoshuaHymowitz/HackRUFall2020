@@ -16,11 +16,10 @@ const temp_thing = ()=> {
   const request = require('request');
   const cheerio = require('cheerio');
 
-  //var URL = "https://twitter.com/hashtag/photography?src=hash";
+  
   var proxyUrl = 'https://cors-anywhere.herokuapp.com/',
-  var cors = require('cors');
   targetUrl = 'https://twitter.com/hashtag/photography?src=hash'
-  request(targetUrl, function (err, res, body) {
+  request(proxyUrl + targetUrl, function (err, res, body) {
    if(err){
       console.log("an error occured : " + err);
    }
