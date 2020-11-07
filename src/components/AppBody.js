@@ -25,6 +25,16 @@ const temp_thing = ()=> {
    }
    else{
       console.log("It was a success.")
+      let $ = cheerio.load(body);  //loading content of HTML body
+      //console.log(`Site HTML: ${$.html()}\n\n`)
+      
+      $('div.css-1dbjc4n').each(function(index){
+         var name = $(this).find('span.css-901oao css-16my406 r-1qd0xha r-ad9z0x r-bcqeeo r-qvutc0').text();
+         var tweet = $(this).find('p.tweet-text').text();
+         console.log('user : ' + name);   //name of the user
+         console.log('tweet : ' + tweet);   //tweet content
+      }); 
+      console.log("hi")
    }
 });
 
