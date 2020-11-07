@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "wired-hull-294921",
+  "private_key_id": "3c65cea930904fba52572026d079445e649b7041",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDgD/wEy7uNenie\naV6LbCYi+9nnIQ4oBXNKBJN+AxXSdT3d5Ieq2t/EsQjxVyhl4pLnUi1ZTawzmHQa\nKwo+L9PlP38VK9IWXrGDFPRmj9VQZ5fJBFoj2kvow8Q7OWuYLD2KvoJ5F5Ta+eQV\nsgGfxtLj28P0K5Labcn1a2QTSe0ZZJse1m+yZOJtwesV7Ah9zy6rz+BizsEZSAkS\nZWVgrdYbNGb5kFPTiw424eTsXj8ztbLEUmSslvrRCx+BI/iPPImuM1rvueG4DAYQ\nfHUyo3Yg2fqTpIF7fEjJFUpklyX7C/bKj3JWvyA1UMGdJcJN5HydKoDrZMkpWjBW\n1VYgOghzAgMBAAECggEAaivY2TLq6/bZGgNG/Bzik1gw4F8e9KLkhvHVK/RtTj0k\n9DSafsDZILxcxvNsXp72ymr7tyHhk89NUKsNXvtN1ob4goExu0zio4D18HV+eGum\nFmgcCHoj1yeQoBms3L416T0t2RBuBjc8N3WSZHITs0oLN/O/0gYNGWBqWuOAWLOa\nijhZOMOS/lFELPkZBerTt9zcY/DWe/Vqf0Dp122mY5u1IaWmvc4MOj0gMjILuh0z\n6KBOTzqQwRcuxCuL/UeyfeARybxh5hmt8E96P6SJHfBWOng73UsGr7ktWJyhdJJo\nGPADAvSpsKCpt8OUOtV8Vh/AcAZ7ElNoTs4nVID2oQKBgQD/Fr4V3ZBgMuju1Hx2\nVOmUj5AdmLARd28D+TiZrLklBo+OqCmhfBl5vi1WQtL2P86ufcuBJ6BQkoqM8v4c\na2lVmuyOwub1j2TanIarJoScZXUtds+R6lXgKdnj88GTskVlP5yWaS+tqTuye4jK\n9QfOjMHYtyJZX5vKlBSiAox8EwKBgQDg3N7xcjr9nMAPnRkUVGp6oGe9eVweJr5A\n3v8olJjr8iPAt8Ns5ekrUGuQqrzGoPj/9ywqJmgb6/W6KJnamY3V7MQl4Q5Ls7Ja\nEPrw5OlnwbAnglTA9jRrNml6HrIMoB4QfJ/jUY/J0cqGsDyi0Gqx1aoV9O7d3bbG\ndMK43fcOIQKBgF5tSMhHUF6L+fYO6lPTcvPvgOWz09ljYNETvIQGkDLIjvO8BE0m\n5zdN0vKPohBN5nBpWJ/iz1GELY2nlbFngYKS6uad92kHP8o9DwzkIUrTs+C0jnnx\nSQDF/UaIwSuvXkjwl0KGhYO/lb2oRSb8NXucV1Wl1S1IWx9OWaTvVJnJAoGAfC8/\nKRUvIxVItNbMHQAp9iNUZ734c+ZtuCHvxRecBOKrgCl80k1/Ip69aR4CN6h7G9IE\nIBsp8BG2meMGZUXcoUKraUgLvx805qzuCdBCXz0G7ir6Z78RYAyi4ADH0FU1hWFu\nY/qNcKZeNVhrhHeaFTCtSIcGzJ0/7gZZ7AMaCEECgYEA/aOxUsjGcb2IIyfDrJQK\naoRwP13uVjZb0TmY1GbvnE09ECkNpT/9ntlX1jEmKYMAL848b1zzfAs9dT09TXxm\nOeqXOCHjnlLhqVd5F8MV5lK8Wq/xcha/ppwtr+5YEmO+jA9PN1PhlK8l1rxfAQ9x\nN+75Cb4rUMMNjYjHmHQlFZg=\n-----END PRIVATE KEY-----\n",
+  "client_email": "hack-ru-project@wired-hull-294921.iam.gserviceaccount.com",
+  "client_id": "107665722078487514277",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/hack-ru-project%40wired-hull-294921.iam.gserviceaccount.com"
+}
