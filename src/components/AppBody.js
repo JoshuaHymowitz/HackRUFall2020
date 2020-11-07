@@ -9,8 +9,24 @@ function AppBody({ dispatch, temp }) {
   const classes = useStyles();
   React.useEffect(() => {
     dispatch(temp1("bbb"));
+    temp_thing();
   }, []);
 
+const temp_thing = ()=> {
+  const request = require('request');
+  const cheerio = require('cheerio');
+
+  var URL = "https://twitter.com/hashtag/photography?src=hash";
+  request(URL, function (err, res, body) {
+   if(err){
+      console.log("an error occured : " + err);
+   }
+   else{
+      console.log("It was a success.")
+   }
+});
+
+}
   return (
     <Grid
       container
