@@ -16,7 +16,7 @@ const temp_thing = ()=> {
   const request = require('request');
   const cheerio = require('cheerio');
   const axios = require('axios');
-  
+  /** 
   var proxyUrl = 'https://cors-anywhere.herokuapp.com/',
   targetUrl = 'https://twitter.com/hashtag/photography?src=hash'
   request(proxyUrl + targetUrl, function (err, res, body) {
@@ -37,7 +37,7 @@ const temp_thing = ()=> {
       }); 
       console.log("hi")
    }
-});
+});*/
 
 }
   return (
