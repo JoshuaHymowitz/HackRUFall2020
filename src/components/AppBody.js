@@ -15,7 +15,7 @@ function AppBody({ dispatch, temp }) {
 const temp_thing = ()=> {
   const request = require('request');
   const cheerio = require('cheerio');
-
+  const axios = require('axios');
   
   var proxyUrl = 'https://cors-anywhere.herokuapp.com/',
   targetUrl = 'https://twitter.com/hashtag/photography?src=hash'
@@ -29,7 +29,8 @@ const temp_thing = ()=> {
       //console.log(`Site HTML: ${$.html()}\n\n`)
       
       $('div.css-1dbjc4n').each(function(index){
-         var name = $(this).find('span.css-901oao css-16my406 r-1qd0xha r-ad9z0x r-bcqeeo r-qvutc0').text();
+        console.log(`Site HTML: ${$(this).html()}\n\n`)
+         var name = $(this).find('span.css-901oao').text();
          var tweet = $(this).find('p.tweet-text').text();
          console.log('user : ' + name);   //name of the user
          console.log('tweet : ' + tweet);   //tweet content
