@@ -16,15 +16,15 @@ import { temp1 } from "../redux/action";
 function AppBody({ dispatch, temp }) {
   const classes = useStyles();
   const [data,setData] = React.useState([]);
-  React.useEffect(() => {
-    // dispatch(temp1("bbb"));
-    console.log('working')
-    fetch("/data/").then(res=>{
-        if(res.ok){
-            return res.json()
-        }
-    }).then(jsonRes=> setData(jsonRes.dataList))
-  }, []);
+  // React.useEffect(() => {
+  //   // dispatch(temp1("bbb"));
+  //   console.log('working')
+  //   fetch("/data/").then(res=>{
+  //       if(res.ok){
+  //           return res.json()
+  //       }
+  //   }).then(jsonRes=> setData(jsonRes.dataList))
+  // }, []);
 
   return (
     <Grid

@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "main.py",
+            "console": "integratedTerminal",
+            "args": ["GOOGLE_APPLICATION_CREDENTIALS='C:\\Users\\Matt\\Desktop\\Group Projects\\HackRUFall2020\\src\\google_cloud_keys\\cloud_key.json'"]
+        }
+    ]
+}
