@@ -18,9 +18,9 @@ import os
 
 numpy.set_printoptions(threshold=sys.maxsize)
 
-stream = os.popen('snscrape --max-results 10 twitter-hashtag election')
-output = stream.read()
-print(output)
+#stream = os.popen('snscrape --max-results 10 twitter-hashtag election')
+#output = stream.read()
+#print(output)
 
 #^^^ prints the last 10 tweets with the hashtag 'election'
 
